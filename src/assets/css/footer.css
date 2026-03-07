@@ -1,0 +1,13 @@
+footer{
+    width: 100%;
+
+    div:nth-child(2){
+        h5{
+            text-transform:capitalize;
+        }
+        .nav-link{
+            font-size: 15px;
+        }
+
+    }
+}

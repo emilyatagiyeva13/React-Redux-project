@@ -1,0 +1,33 @@
+.card {
+    width: 240px;
+
+    .card-img {
+        width: 230px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .see-product {
+        background-color: #064C50;
+        color:white
+    }
+    .add-to-cart:hover {
+        background-color: hwb(183 26% 51%);
+        color:black;
+    }
+
+}
+
+.card-price {
+    span:nth-child(1) {
+        font-size: 23px;
+        color: #15803D;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    span:nth-child(2) {
+        font-size: 15px;
+        text-decoration: line-through;
+        color: rgb(176, 174, 174);
+    }
+}

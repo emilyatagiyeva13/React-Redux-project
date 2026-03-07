@@ -1,0 +1,43 @@
+#sorting-tab{
+    background-color: #F3F4F6;
+    border-radius: 50px;
+    display: flex;
+    gap:90px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+    p{
+        margin-top: 10px;
+        margin-right: 250px;
+        color:#6B7280;
+    }
+    .grid{
+        background-color: #064C50;
+        color:white;
+        
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+    .list-view,.grid{
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .list-view{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid rgb(221, 213, 213);
+        background-color: #fff;
+    }
+
+    .default-sorting,.items{
+        border: 1px solid rgb(210, 195, 195);
+        border-radius: 10px;
+        font-size: 14px;
+        padding: 3px;
+        font-family: sans-serif;
+        background-color: #fff;
+    }
+}

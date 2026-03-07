@@ -1,0 +1,11 @@
+.border-bottom {
+    border-color: #eee !important;
+}
+
+.img-fluid {
+    border: 1px solid #eee;
+}
+
+.quantity-container .btn-light:hover {
+    background-color: #e2e6ea;
+}

@@ -1,0 +1,77 @@
+/* Ana konteynerin arxa fonunu bir az yumşaldaq */
+.container.mt-2.d-flex.justify-content-center.p-5 {
+    background-color: #fdfdfd;
+    min-height: 100vh;
+}
+
+/* Sənin .card klasın */
+.card.shadow.p-4 {
+    border: none !important;
+    border-radius: 25px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+    background: #ffffff;
+}
+
+/* Başlıq (h2) */
+.card h2.text-center.mb-4 {
+    font-weight: 800;
+    color: #2d3436;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+/* Label-lər (form-label) */
+.form-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #636e72;
+    margin-bottom: 6px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+}
+
+/* Giriş sahələri (form-control və form-select) */
+.form-control, 
+.form-select {
+    border: 1.5px solid #edf2f7 !important;
+    border-radius: 12px !important;
+    padding: 10px 15px !important;
+    font-size: 0.95rem !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.form-control:focus, 
+.form-select:focus {
+    border-color: #BDEB69 !important;
+    box-shadow: 0 0 0 4px rgba(189, 235, 105, 0.15) !important;
+    outline: none !important;
+}
+
+/* Düymə (btn) */
+.btn.mt-3.py-2.w-100.fw-bold {
+    border-radius: 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s transform ease !important;
+    border: none !important;
+}
+
+.btn.mt-3.py-2.w-100.fw-bold:hover {
+    filter: brightness(0.95);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(189, 235, 105, 0.4);
+}
+
+.btn.mt-3.py-2.w-100.fw-bold:active {
+    transform: translateY(0);
+}
+
+/* Row daxilindəki boşluqlar */
+.row {
+    margin-bottom: 5px;
+}
+
+/* Textarea üçün xüsusi toxunuş */
+textarea.form-control {
+    min-height: 100px;
+}

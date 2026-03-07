@@ -1,0 +1,108 @@
+/* Konteyner və Ümumi tənzimləmə */
+.container.table {
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    /* Sətirlər arası boşluq */
+    border: none;
+}
+
+/* Başlıq (PRODUCT LIST) */
+h1.text-center {
+    font-weight: 800;
+    color: #2d3436;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+/* Add Product Düyməsi */
+.btn-dark {
+    border-radius: 10px !important;
+    padding: 10px 25px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 30px auto;
+    /* Mərkəzləşdirmə */
+}
+
+/* Cədvəl Başlığı (thead) */
+thead tr th {
+    background-color: transparent !important;
+    color: #636e72 !important;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    border: none !important;
+    padding-bottom: 15px !important;
+}
+
+/* Cədvəl Sətirləri (tbody tr) */
+tbody tr {
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+tbody tr:hover {
+    transform: scale(1.01);
+}
+
+/* Hüceyrələr (td və th) */
+tbody td,
+tbody th {
+    padding: 15px !important;
+    vertical-align: middle !important;
+    border: none !important;
+}
+
+/* Birinci və axırıncı hüceyrənin künclərini yumşaltmaq */
+tbody tr td:first-child,
+tbody tr th:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+tbody tr td:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+/* Məhsul Şəkli */
+tbody td img {
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+}
+
+/* Düymələr (EDIT & DELETE) */
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    padding: 6px 15px !important;
+    text-transform: uppercase;
+}
+
+/* EDIT Düyməsi (Xüsusi klasın olmadığı üçün .btn olaraq hədəfləyirik) */
+td .btn:not(.btn-danger) {
+    background-color: #f1f2f6;
+    color: #2f3542;
+    margin-right: 5px;
+}
+
+td .btn:not(.btn-danger):hover {
+    background-color: #dfe4ea;
+}
+
+/* DELETE Düyməsi */
+.btn-danger {
+    background-color: #ff7675 !important;
+    border: none !important;
+}
+
+.btn-danger:hover {
+    background-color: #d63031 !important;
+    box-shadow: 0 4px 12px rgba(214, 48, 49, 0.3);
+}
